@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: white;
     outline: none;
     font-family: 'Courier New', Courier, monospace;
 } 
@@ -17,7 +16,7 @@
     background-color:white;
     padding:15px;
     border-radius: 30px;
-    box-shadow: inset 5px 5px 12px white, 5px 5px 12px black ;
+     box-shadow:inset 5px 5px 12px white, 5px 5px 12px black ;
     display: grid;
     grid-template-columns: repeat(4,70px);           
 }
@@ -40,8 +39,14 @@ button{
     width:60px;
     background-color:white;
     font-weight: bolder;
+    font-size:20px;
     border:none;
-    box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px black;
+    box-shadow: inset -5px -5px 12px white, inset 2px 2px 10px black;
     border-radius:50px;
     margin:8px;
 } 
+.equal{
+
+    width: 100px;
+    
+}

@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: black;
     outline: none;
     font-family:'Courier New', Courier, monospace;
 } 
@@ -16,18 +17,20 @@
     background-color:white;
     padding:15px;
     border-radius: 30px;
-    box-shadow:inset 5px 5px 12px white, 5px 5px 12px black ;
+    box-shadow:inset 5px 5px 12px rgb(226, 128, 128), 5px 5px 12px rgb(228, 125, 125) ;
+    background-image: linear-gradient(#ffafbd, #ffc3a0);
     display: grid;
     grid-template-columns: repeat(4,70px);           
 }
 input{
     grid-column:span 4 ;
     height:70px;
-    background-color:white;
+    background-color:rgb(246, 245, 251);
     box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px black;
     border: none;
     border-radius:30px;
-    color: black;
+    color: rgb(14, 9, 9);
+    font-weight:bolder;
     font-size: 50px ;
     text-align: end;
     margin-top:40px;

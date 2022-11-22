@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
 } 
 .container{
     height: 100vh;
@@ -16,7 +16,7 @@
     background-color:white;
     padding:15px;
     border-radius: 30px;
-     box-shadow:inset 5px 5px 12px white, 5px 5px 12px black ;
+    box-shadow:inset 5px 5px 12px white, 5px 5px 12px black ;
     display: grid;
     grid-template-columns: repeat(4,70px);           
 }

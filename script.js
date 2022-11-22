@@ -16,10 +16,11 @@ function calculate(){
     }
 }
 
-function clear(){
-
-    outputScreen.value = "";
-}
 function del(){
     outputScreen.value = outputScreen.value.slice(0,-1);
+}
+
+function cl(){
+
+    outputScreen.value = '';
 }
